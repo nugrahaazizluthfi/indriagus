@@ -81,6 +81,7 @@ export default {};
   }
 
   .gmap_canvas {
+    text-align: center;
     iframe {
       position: relative;
       margin: 0 auto;
