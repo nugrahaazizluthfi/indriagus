@@ -1,18 +1,32 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="global-wrapper">
+    <bride-screen></bride-screen>
+    <bride-story></bride-story>
+    <bride-greeting></bride-greeting>
+    <time-place></time-place>
+    <navigation v-if="navigation"></navigation>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import BrideScreen from './parts/BrideScreen.vue';
+import BrideGreeting from './parts/BrideGreeting.vue';
+import BrideStory from './parts/BrideStory.vue';
+import Navigation from './parts/Navigation.vue';
+import TimePlace from './parts/TimePlace.vue';
 
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
-  }
-}
+    BrideScreen,
+    BrideGreeting,
+    BrideStory,
+    Navigation,
+    TimePlace,
+  },
+  data() {
+    return {
+      navigation: 0,
+    };
+  },
+};
 </script>
