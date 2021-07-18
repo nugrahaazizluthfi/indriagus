@@ -11,6 +11,15 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+library.add(faPlay);
+library.add(faPause);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+
 Vue.config.productionTip = false;
 
 Vue.use(vueAwesomeCountdown, 'vac');
