@@ -11,6 +11,7 @@
     <div class="map-desc">
       Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini. atau
       anda bisa klik button ini.
+      <br />
       <a
         href="https://www.google.com/maps?q=-6.8865528,107.5359312"
         target="_blank"
@@ -70,11 +71,19 @@ export default {};
     font-size: 11px;
 
     a {
+      display: block;
       background: #4d517d;
       border-radius: 70px;
       color: #fff;
       font-size: 11px;
       margin: 20px 0px;
+    }
+  }
+
+  .gmap_canvas {
+    iframe {
+      position: relative;
+      margin: 0 auto;
     }
   }
 }
