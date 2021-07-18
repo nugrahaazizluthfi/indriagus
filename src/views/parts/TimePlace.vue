@@ -15,7 +15,7 @@
       <a
         href="https://www.google.com/maps?q=-6.8865528,107.5359312"
         target="_blank"
-        class="btn"
+        class="btn mt-3 mb-3"
       >
         Pergi Ke Google Map
       </a>
@@ -24,7 +24,7 @@
     <div class="mapouter">
       <div class="gmap_canvas">
         <iframe
-          width="275"
+          width="100%"
           height="200"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=PT.%20Gemilang%20Inti%20Cimahi&t=&z=19&ie=UTF8&iwloc=&output=embed"
@@ -71,12 +71,14 @@ export default {};
     font-size: 11px;
 
     a {
+      position: relative;
       display: block;
       background: #4d517d;
       border-radius: 70px;
       color: #fff;
       font-size: 11px;
-      margin: 20px 0px;
+      width: 200px;
+      margin: 0 auto;
     }
   }
 
