@@ -14,8 +14,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 library.add(faPlay);
 library.add(faPause);
@@ -27,9 +25,6 @@ Vue.config.productionTip = false;
 Vue.use(vueAwesomeCountdown, 'vac');
 
 new Vue({
-  created() {
-    AOS.init();
-  },
   router,
   render: (h) => h(App),
 }).$mount('#app');
