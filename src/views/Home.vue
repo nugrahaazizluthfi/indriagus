@@ -6,6 +6,7 @@
     <time-place></time-place>
     <bride-story></bride-story>
     <navigation v-if="navigation"></navigation>
+    <form-indri></form-indri>
     <audio id="audio-player" src="@/assets/itsu.mp3">
       Your browser does not support the audio tag.
     </audio>
@@ -17,6 +18,7 @@
 </template>
 
 <script>
+import FormIndri from './parts/Form.vue';
 import ProkesScreen from './parts/Prokes.vue';
 import BrideScreen from './parts/BrideScreen.vue';
 import BrideGreeting from './parts/BrideGreeting.vue';
@@ -32,6 +34,7 @@ export default {
     Navigation,
     TimePlace,
     ProkesScreen,
+    FormIndri,
   },
   data() {
     return {
@@ -58,7 +61,7 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      this.showProkes = 1;
+      // this.showProkes = 1;
     }, 15000);
   },
 };

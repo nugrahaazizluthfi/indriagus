@@ -17,9 +17,9 @@
       <h4><i>Tahun 2015</i></h4>
       <p>
         Kami diperkenalkan di tahun 2015 oleh teman kami, pertama kali bertemu
-        untuk bersama berangkat bekerja. Akan tetapi, setelah pertemuan itu
-        komunikasi kami tidak intens seperti biasanya. Kami bertemu kembali &
-        pergi bersama di bulan maret tahun 2019.
+        untuk berangkat kerja bersama. Akan tetapi, setelah pertemuan itu
+        komunikasi kami tidak intens. Dan kami bertemu kembali pada bulan maret
+        tahun 2019.
       </p>
     </div>
 
@@ -28,11 +28,11 @@
         2
       </div>
       <h3 class="right">Kali Pertama Berkunjung Ke Rumah</h3>
-      <h4 class="right"><i>Agustus Tahun 2019</i></h4>
+      <h4 class="right"><i>Agustus Tahun 2020</i></h4>
       <p class="right">
-        Di Agustus 2019, saat Aku ( Indri ) bertemu dengan hari kelahiranku, Dia
-        ( Mas Agus ) kerumah untuk pertama kalinya bertemu dan berkenalan dengan
-        keluargaku.
+        Tanggal 9 Agustus 2020, Agus berkunjung kerumah tepat pada hari
+        kelahiran Indri. Untuk pertama kalinya Agus berkunjung kerumah dan
+        bertemu keluarga Indri.
       </p>
     </div>
 

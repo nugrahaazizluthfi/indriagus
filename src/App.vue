@@ -24,4 +24,15 @@ body {
   padding: 0px;
   min-height: calc(100vh - 0px);
 }
+
+.swal2-title {
+  font-size: 18px !important;
+}
+
+.swal2-confirm {
+  font-size: 14px !important;
+  padding: 0px !important;
+  padding: 5px 50px !important;
+  border-radius: 15px !important;
+}
 </style>
