@@ -61,7 +61,7 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      // this.showProkes = 1;
+      this.showProkes = 1;
     }, 15000);
   },
 };
