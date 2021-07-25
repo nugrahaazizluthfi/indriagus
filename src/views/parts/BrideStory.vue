@@ -1,13 +1,15 @@
 <template>
   <div class="bride-story">
     <div class="flower-again"></div>
-    <div class="title" data-aos="fade-in">Our Journey</div>
-    <div class="desc" data-aos="fade-in">
+    <div class="title" data-aos="fade-in" data-aos-duration="3000">
+      Our Journey
+    </div>
+    <div class="desc" data-aos="fade-in" data-aos-duration="3000">
       Banyak cerita yang kami lalui sehingga akhirnya kami bisa bersatu, cerita
       yang akan kami kenang selalu, dan cerita itu kami bagi untuk anda
     </div>
 
-    <div class="box-meet" data-aos="fade-left">
+    <div class="box-meet" data-aos="fade-right" data-aos-duration="3000">
       <div class="number-right">
         1
       </div>
@@ -21,7 +23,7 @@
       </p>
     </div>
 
-    <div class="box-meet" data-aos="fade-right">
+    <div class="box-meet" data-aos="fade-left" data-aos-duration="3000">
       <div class="number-left">
         2
       </div>
@@ -34,7 +36,7 @@
       </p>
     </div>
 
-    <div class="box-meet" data-aos="fade-left">
+    <div class="box-meet" data-aos="fade-right" data-aos-duration="3000">
       <div class="number-right">
         3
       </div>
@@ -79,12 +81,12 @@ export default {};
     position: relative;
     font-family: 'Great Vibes', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #4d517d;
   }
   .desc {
     position: relative;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     padding: 20px 0px;
   }
@@ -105,16 +107,16 @@ export default {};
     }
 
     h3 {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: bold;
     }
 
     h4 {
-      font-size: 13px;
+      font-size: 14px;
     }
 
     p {
-      font-size: 10px;
+      font-size: 13px;
     }
 
     .right {

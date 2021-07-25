@@ -1,39 +1,24 @@
 <template>
   <div class="time-place">
-    <h5 class="title">Waktu & Tempat</h5>
+    <h5
+      class="title"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="2000"
+    >
+      Waktu & Tempat
+    </h5>
 
-    <div class="time">
+    <div
+      class="time"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="3000"
+    >
       <h1>Akad</h1>
       <h5>Sabtu, 07 Agustus 2021</h5>
       <h5>08.00 s/d 10.00</h5>
-    </div>
-
-    <div class="map-desc">
-      Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini. atau
-      anda bisa klik button ini.
-      <br />
-      <a
-        href="https://www.google.com/maps?q=-6.8865528,107.5359312"
-        target="_blank"
-        class="btn mt-3 mb-3"
-      >
-        Pergi Ke Google Map
-      </a>
-    </div>
-
-    <div class="mapouter">
-      <div class="gmap_canvas">
-        <iframe
-          width="100%"
-          height="200"
-          id="gmap_canvas"
-          src="https://maps.google.com/maps?q=PT.%20Gemilang%20Inti%20Cimahi&t=&z=19&ie=UTF8&iwloc=&output=embed"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-        ></iframe>
-      </div>
+      <h5>Lokasi: Rumah Mempelai Wanita</h5>
     </div>
   </div>
 </template>

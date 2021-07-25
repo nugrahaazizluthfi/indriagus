@@ -1,7 +1,7 @@
 <template>
   <div class="bride-greeting" ref="brideGreeting">
-    <div class="word-greeting">
-      <h5>
+    <div class="word-greeting" data-aos="fade-in" data-aos-duration="3000">
+      <h5 id="openundangan">
         Bismillahirohmanirohim
       </h5>
       <p class="word-normal">
@@ -15,31 +15,35 @@
     </div>
 
     <div class="bride-section mt-5">
-      <div class="profile">
+      <div class="profile" data-aos="fade-in" data-aos-duration="2000">
         <div class="img shadow-sm indri"></div>
       </div>
       <div class="name">
-        <div class="text">
+        <div class="text" data-aos="fade-left" data-aos-duration="1000">
           <h5>Indri Agustin Mardianur</h5>
           <p>Putri Bpk. Komarudi (Alm) & Ibu Ade Nurjanah</p>
         </div>
       </div>
     </div>
-    <div class="and mt-2">
+    <div class="and mt-2" data-aos="fade-in" data-aos-duration="3000">
       &
     </div>
     <div class="bride-section mt-2">
-      <div class="name pt-4">
+      <div class="name pt-4" data-aos="fade-right" data-aos-duration="1000">
         <div class="text">
           <h5>Agus Aryanto</h5>
           <p>Putra Bpk. Muhlisin & Ibu Ardiah</p>
         </div>
       </div>
-      <div class="profile">
+      <div class="profile" data-aos="fade-in" data-aos-duration="1000">
         <div class="img shadow-sm agus"></div>
       </div>
     </div>
-    <div class="bride-word-invitaion mt-4">
+    <div
+      class="bride-word-invitaion mt-4"
+      data-aos="fade-in"
+      data-aos-duration="400"
+    >
       <p>
         Dengan memohon rahmat dan <strong>ridho Allah SWT</strong>, kami
         mengundang Bapak/Ibu/Saudara/i untuk menghadiri

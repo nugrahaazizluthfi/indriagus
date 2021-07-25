@@ -42,7 +42,14 @@
         <timer></timer>
       </div>
       <div data-aos="fade-in" data-aos-duration="3000" class="bride-button">
-        <button type="button" class="btn btn-bride">BUKA UNDANGAN</button>
+        <a
+          type="button"
+          class="btn btn-bride"
+          href="#openundangan"
+          v-smooth-scroll
+        >
+          BUKA UNDANGAN
+        </a>
       </div>
     </div>
   </div>
@@ -80,14 +87,14 @@ export default {
     margin: 0 auto;
     font-size: 40px;
     text-align: center;
-    top: calc(100vh - 78%);
+    top: calc(100vh - 85%);
     padding: 20px;
     color: #ffa200;
 
     .bride-title {
       position: relative;
-      top: -30px;
-      font-size: 17px;
+      top: -20px;
+      font-size: 20px;
       font-family: 'Great Vibes', cursive;
       color: #fff;
     }
@@ -104,12 +111,12 @@ export default {
       }
 
       .and {
-        font-size: 20px;
+        font-size: 2rem;
       }
 
       .indri,
       .agus {
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 
       .indri {
