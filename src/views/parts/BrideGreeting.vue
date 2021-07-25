@@ -30,7 +30,7 @@
     </div>
     <div class="bride-section mt-2">
       <div class="name pt-4" data-aos="fade-right" data-aos-duration="1000">
-        <div class="text">
+        <div class="text right">
           <h5>Agus Aryanto</h5>
           <p>Putra Bpk. Muhlisin & Ibu Ardiah</p>
         </div>
@@ -64,7 +64,7 @@ export default {};
   background-image: url('~@/assets/flower2.png');
   background-repeat: repeat;
   padding: 5% 18px 5% 18px;
-
+  background-color: #faf1ff;
   @media screen and(max-width: 374px) {
     padding: 5% 18px 5% 18px;
   }
@@ -141,6 +141,9 @@ export default {};
     .name {
       flex-grow: 1;
       padding: 0px 20px;
+      .right {
+        text-align: right;
+      }
       .text {
         padding-top: 20px;
         @media screen and(max-width: 374px) {
@@ -154,10 +157,10 @@ export default {};
 
         h5 {
           font-family: 'Great Vibes', cursive;
-          font-size: 25px;
+          font-size: 30px;
           color: #4d517d;
           @media screen and(max-width: 374px) {
-            font-size: 25px;
+            font-size: 28px;
             letter-spacing: 2px;
           }
         }

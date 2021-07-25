@@ -14,7 +14,7 @@
         1
       </div>
       <h3>Pertama Kali Berjumpa</h3>
-      <h4>Tahun 2015</h4>
+      <h4><i>Tahun 2015</i></h4>
       <p>
         Kami diperkenalkan di tahun 2015 oleh teman kami, pertama kali bertemu
         untuk bersama berangkat bekerja. Akan tetapi, setelah pertemuan itu
@@ -28,7 +28,7 @@
         2
       </div>
       <h3 class="right">Kali Pertama Berkunjung Ke Rumah</h3>
-      <h4 class="right">Agustus Tahun 2019</h4>
+      <h4 class="right"><i>Agustus Tahun 2019</i></h4>
       <p class="right">
         Di Agustus 2019, saat Aku ( Indri ) bertemu dengan hari kelahiranku, Dia
         ( Mas Agus ) kerumah untuk pertama kalinya bertemu dan berkenalan dengan
@@ -41,12 +41,22 @@
         3
       </div>
       <h3>Pertemuan Keluarga</h3>
-      <h4>januari Tahun 2019</h4>
+      <h4><i>Januari Tahun 2019</i></h4>
       <p>
         29 Januari 2021, adalah hari yang membahagiakan untuk kami berdua, kami
         melangsungkan pertemuan keluarga besar kami untuk membahas masa depan
         kami yang lebih serius.
       </p>
+    </div>
+
+    <div class="title mb-5" data-aos="fade-in" data-aos-duration="3000">
+      Our Video
+    </div>
+    <div class="video" data-aos="fade-in" data-aos-duration="3000">
+      <video controls>
+        <source src="@/assets/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   </div>
 </template>
@@ -92,9 +102,10 @@ export default {};
   }
 
   .box-meet {
+    background: #faf1ff;
     position: relative;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #fff;
     border-radius: 5px;
     border-top-left-radius: 18px;
     border-bottom-right-radius: 18px;
@@ -109,10 +120,12 @@ export default {};
     h3 {
       font-size: 18px;
       font-weight: bold;
+      color: #ff03ff;
     }
 
     h4 {
       font-size: 14px;
+      color: #ab13ab;
     }
 
     p {
@@ -127,24 +140,30 @@ export default {};
     .number-left {
       position: absolute;
       top: -15px;
-      border: 1px solid #fff;
+      border: 3px solid #fff;
       padding: 5px;
       margin: 0px;
-      padding: 0px;
-      width: 30px;
-      height: 30px;
+      padding: 0px 10px;
       line-height: 30px;
       text-align: center;
       background: #4d517d;
       color: #fff;
       border-radius: 15px;
       font-weight: bold;
+      font-size: 20px;
     }
     .number-right {
-      right: 10px;
+      right: 15px;
     }
     .number-left {
-      left: 10px;
+      left: 15px;
+    }
+  }
+
+  .video {
+    video {
+      width: 100%;
+      height: 400px;
     }
   }
 }

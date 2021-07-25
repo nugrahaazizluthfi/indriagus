@@ -11,6 +11,7 @@ body {
   margin: 0px !important;
   margin: 0px !important;
   font-family: 'Roboto Mono', monospace;
+  background: #e3d4f2 !important;
 }
 
 .global-wrapper {

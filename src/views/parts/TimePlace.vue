@@ -15,10 +15,10 @@
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="3000"
     >
-      <h1>Akad</h1>
-      <h5>Sabtu, 07 Agustus 2021</h5>
-      <h5>08.00 s/d 10.00</h5>
-      <h5>Lokasi: Rumah Mempelai Wanita</h5>
+      <h2 style="color:#ff0095">Akad</h2>
+      <h3 style="color:#ab13ab">Sabtu, 07 Agustus 2021</h3>
+      <h4 style="color:#ab13ab">08.00 s/d 10.00</h4>
+      <h5 style="color:#ff0095">Lokasi: Rumah Mempelai Wanita</h5>
     </div>
   </div>
 </template>

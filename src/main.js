@@ -12,13 +12,14 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faPause, faMusic } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import VueSmoothScroll from 'vue2-smooth-scroll';
 library.add(faPlay);
 library.add(faPause);
+library.add(faMusic);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

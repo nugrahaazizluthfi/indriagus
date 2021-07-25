@@ -47,6 +47,7 @@
           class="btn btn-bride"
           href="#openundangan"
           v-smooth-scroll
+          @click="playSong"
         >
           BUKA UNDANGAN
         </a>
@@ -60,6 +61,12 @@ import Timer from '../../components/Timer.vue';
 export default {
   components: {
     Timer,
+  },
+  methods: {
+    playSong() {
+      var audio = document.getElementById('audio-player');
+      audio.play();
+    },
   },
 };
 </script>
@@ -75,7 +82,7 @@ export default {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: rgba($color: #2c2b3a, $alpha: 0.7);
+    background: rgba($color: #2c2b3a, $alpha: 0.5);
     z-index: 1;
   }
 
@@ -111,12 +118,14 @@ export default {
       }
 
       .and {
-        font-size: 2rem;
+        font-size: 1.2rem;
       }
 
       .indri,
       .agus {
-        font-size: 2rem;
+        font-size: 1.9rem;
+        font-weight: bold;
+        letter-spacing: 6px;
       }
 
       .indri {
@@ -166,10 +175,10 @@ export default {
       position: relative;
       top: 80px;
       .btn-bride {
-        background: #fff;
+        background: #bda4d7;
         border-radius: 200px;
         font-size: 11px;
-        color: #4d517d;
+        color: #fff;
         font-weight: bold;
         letter-spacing: 1px;
         padding: 10px 15px;
