@@ -16,7 +16,7 @@
 
     <div class="bride-section mt-5">
       <div class="profile">
-        <div class="img shadow-sm"></div>
+        <div class="img shadow-sm indri"></div>
       </div>
       <div class="name">
         <div class="text">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="profile">
-        <div class="img shadow-sm"></div>
+        <div class="img shadow-sm agus"></div>
       </div>
     </div>
     <div class="bride-word-invitaion mt-4">
@@ -121,6 +121,16 @@ export default {};
           width: 80px;
           height: 80px;
         }
+      }
+
+      .indri {
+        background-image: url('~@/assets/indri.jpeg');
+        background-size: cover;
+      }
+
+      .agus {
+        background-image: url('~@/assets/agus.jpeg');
+        background-size: cover;
       }
     }
 
