@@ -1,13 +1,13 @@
 <template>
   <div class="bride-story">
     <div class="flower-again"></div>
-    <div class="title">Our Journey</div>
-    <div class="desc">
+    <div class="title" data-aos="fade-in">Our Journey</div>
+    <div class="desc" data-aos="fade-in">
       Banyak cerita yang kami lalui sehingga akhirnya kami bisa bersatu, cerita
       yang akan kami kenang selalu, dan cerita itu kami bagi untuk anda
     </div>
 
-    <div class="box-meet">
+    <div class="box-meet" data-aos="fade-left">
       <div class="number-right">
         1
       </div>
@@ -21,7 +21,7 @@
       </p>
     </div>
 
-    <div class="box-meet">
+    <div class="box-meet" data-aos="fade-right">
       <div class="number-left">
         2
       </div>
@@ -34,7 +34,7 @@
       </p>
     </div>
 
-    <div class="box-meet">
+    <div class="box-meet" data-aos="fade-left">
       <div class="number-right">
         3
       </div>

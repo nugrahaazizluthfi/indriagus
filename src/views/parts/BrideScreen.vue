@@ -5,7 +5,8 @@
       <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
-        data-aos-duration="400"
+        data-aos-duration="1000"
+        data-aos-offset="100"
         class="bride-title"
       >
         The Weeding Cellebration Of
@@ -14,13 +15,18 @@
         <div
           data-aos="fade-in"
           data-aos-duration="3000"
+          data-aos-offset="200"
           class="image-right"
         ></div>
-        <span data-aos="fade-right" data-aos-duration="1000" class="indri"
+        <span
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          data-aos-offset="300"
+          class="indri"
           >Indri Agustin</span
         >
-        <span data-aos="fade-in" data-aos-duration="2000" class="and">&</span>
-        <span data-aos="fade-left" data-aos-duration="1000" class="agus"
+        <span data-aos="fade-in" data-aos-duration="3000" class="and">&</span>
+        <span data-aos="fade-left" data-aos-duration="3000" class="agus"
           >Agus Aryanto</span
         >
         <div
@@ -29,13 +35,13 @@
           class="image-left"
         ></div>
       </div>
-      <div data-aos="fade-in" data-aos-duration="2000" class="bride-time">
+      <div data-aos="fade-in" data-aos-duration="3000" class="bride-time">
         Rabu, 07 Agustus 2021
       </div>
-      <div data-aos="fade-in" data-aos-duration="2000" class="bride-countdown">
+      <div data-aos="fade-in" data-aos-duration="3000" class="bride-countdown">
         <timer></timer>
       </div>
-      <div data-aos="fade-in" data-aos-duration="2000" class="bride-button">
+      <div data-aos="fade-in" data-aos-duration="3000" class="bride-button">
         <button type="button" class="btn btn-bride">BUKA UNDANGAN</button>
       </div>
     </div>
