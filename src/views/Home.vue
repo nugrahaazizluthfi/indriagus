@@ -2,9 +2,9 @@
   <div class="global-wrapper">
     <prokes-screen v-if="showProkes" @showprokes="updateProkes"></prokes-screen>
     <bride-screen></bride-screen>
-    <bride-story></bride-story>
     <bride-greeting></bride-greeting>
     <time-place></time-place>
+    <bride-story></bride-story>
     <navigation v-if="navigation"></navigation>
     <audio id="audio-player" src="@/assets/itsu.mp3">
       Your browser does not support the audio tag.
@@ -59,7 +59,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.showProkes = 1;
-    }, 8000);
+    }, 15000);
   },
 };
 </script>

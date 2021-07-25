@@ -15,10 +15,12 @@
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="3000"
     >
-      <h2 style="color:#ff0095">Akad</h2>
-      <h3 style="color:#ab13ab">Sabtu, 07 Agustus 2021</h3>
-      <h4 style="color:#ab13ab">08.00 s/d 10.00</h4>
-      <h5 style="color:#ff0095">Lokasi: Rumah Mempelai Wanita</h5>
+      <h1 style="color:#ff0095">Akad</h1>
+      <h5 style="color:#ab13ab; font-size:17px">Sabtu, 07 Agustus 2021</h5>
+      <h5 style="color:#ab13ab; font-size:17px">08.00 s/d 10.00</h5>
+      <h5 style="color:#ff0095; font-size:14px">
+        Lokasi: Rumah Mempelai Wanita
+      </h5>
     </div>
   </div>
 </template>
@@ -32,6 +34,7 @@ export default {};
   position: relative;
   padding: 5% 18px 5% 18px;
   overflow: hidden;
+  background: #fff;
 
   @media screen and(max-width: 374px) {
     padding: 5% 18px 5% 18px;

@@ -14,12 +14,12 @@
           kesediaannya untuk:
         </p>
 
-        <div class="img">
+        <div class="img pt-3">
           <img src="@/assets/prokes1.jpg" alt="prokes1" />
         </div>
 
         <div
-          class="btn btn-bride mt-5 mb-2"
+          class="btn btn-bride mt-4 mb-2"
           @click="() => this.$emit('showprokes', 0)"
         >
           Baik, Saya Akan Mematuhinya.
@@ -78,6 +78,12 @@ export default {
       img {
         width: 300px;
         max-width: 480px;
+
+        @media screen and(max-width: 374px),
+          screen and(min-width: 375px) and( max-width: 480px) {
+          width: 180px;
+          max-width: 480px;
+        }
       }
     }
   }
