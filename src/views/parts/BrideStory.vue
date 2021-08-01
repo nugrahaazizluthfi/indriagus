@@ -82,7 +82,7 @@ export default { components: { carousel } };
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
     top: 110px;
-    left: 25px;
+    left: 45px;
     display: block;
     width: 140px;
     color: #1f3e4b;
