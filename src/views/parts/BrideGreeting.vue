@@ -65,7 +65,7 @@
       </div>
       <p class="arrum mt-4">
         Dengan memohon rahmat dan ridho Allah SWT, Kami bermaksud
-        menyelenggarakan Akad Nikah Putra Pertama Kami yang Insyaa Allah akan
+        menyelenggarakan Akad Nikah Putra & Putri Kami yang Insyaa Allah akan
         dilaksanakan pada:
       </p>
 
@@ -113,7 +113,7 @@
         Kami yang berbahagia
 
         <h1 class="mt-2">
-          Kel. Bapak Komarudi (Alm)
+          Kel. Bapak Komarudin (Alm)
         </h1>
         <h5>&</h5>
         <h1>
