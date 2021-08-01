@@ -90,6 +90,10 @@ export default { components: { carousel } };
     font-weight: bold;
     font-size: 12px;
 
+    @media screen and (min-width: 375px) and (max-width: 480px) {
+      left: 55px;
+    }
+
     span {
       display: block;
       margin-top: 10px;
