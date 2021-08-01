@@ -77,6 +77,7 @@ export default { components: { carousel } };
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #60654e;
 
   .quotes {
     font-family: 'Cormorant Garamond', serif;
