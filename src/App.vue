@@ -5,13 +5,13 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
 html,
 body {
   margin: 0px !important;
   margin: 0px !important;
-  font-family: 'Roboto Mono', monospace;
-  background: #e3d4f2 !important;
+  font-family: 'Cormorant Garamond', serif;
+  background: #1d3742 !important;
 }
 
 .global-wrapper {
