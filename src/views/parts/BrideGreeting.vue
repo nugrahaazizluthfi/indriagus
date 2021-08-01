@@ -10,12 +10,12 @@
       </div>
       <div class="name">
         <div class="text" data-aos="fade-left" data-aos-duration="1000">
-          <h5 class="mt-2">Indri Agustin Mardianur</h5>
+          <h5 class="mt-2">Indri Agustin Mardianur, A.Md</h5>
           <p>
             Putri Pertama Dari Pasangan <br />
             <strong
               ><i
-                >Bpk. Komarudi (Alm) <br />&<br />
+                >Bpk. Komarudin (Alm) <br />&<br />
                 Ibu Ade Nurjanah</i
               ></strong
             >

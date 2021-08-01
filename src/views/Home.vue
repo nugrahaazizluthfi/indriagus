@@ -11,8 +11,8 @@
       Your browser does not support the audio tag.
     </audio>
     <button class="btnControl" @click="toggleAudio()">
-      <font-awesome-icon v-if="!toogle" icon="music" />
-      <font-awesome-icon v-if="toogle" icon="pause" />
+      <font-awesome-icon v-if="toogle" icon="music" />
+      <font-awesome-icon v-if="!toogle" icon="pause" />
     </button>
   </div>
 </template>
@@ -58,7 +58,7 @@ export default {
     toggleAudio() {
       var audio = document.getElementById('audio-player');
 
-      if (this.toogle) {
+      if (!this.toogle) {
         audio.pause();
       } else {
         audio.play();
