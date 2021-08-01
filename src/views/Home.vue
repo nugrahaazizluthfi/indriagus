@@ -43,7 +43,7 @@ export default {
       navigation: 0,
       toogle: 0,
       showProkes: 0,
-      showScreen: 0,
+      showScreen: 1,
     };
   },
   methods: {
@@ -70,7 +70,7 @@ export default {
   mounted() {
     setTimeout(() => {
       if (this.showScreen == 0) {
-        // this.showProkes = 1;
+        this.showProkes = 1;
       }
     }, 15000);
   },

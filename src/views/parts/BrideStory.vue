@@ -12,12 +12,12 @@
     <carousel :items="1" :nav="false">
       <div class="box-meet" data-aos="fade-right" data-aos-duration="3000">
         <h3>Pertama Kali Berjumpa</h3>
-        <h4><i>Mei Tahun 2015</i></h4>
+        <h4><i>Tahun 2015</i></h4>
         <p>
-          Kami diperkenalkan pada bulan Mei tahun 2015 oleh teman kami, pertama
-          kali bertemu untuk berangkat kerja bersama. Akan tetapi, setelah
-          pertemuan itu komunikasi kami tidak intens. Dan kami bertemu kembali
-          pada bulan maret tahun 2019.
+          Kami diperkenalkan pada tahun 2015 oleh teman kami, pertama kali
+          bertemu untuk berangkat kerja bersama. Akan tetapi, setelah pertemuan
+          itu komunikasi kami tidak intens. Dan kami bertemu kembali pada bulan
+          mei tahun 2019.
         </p>
       </div>
       <div class="box-meet" data-aos="fade-left" data-aos-duration="3000">
@@ -73,23 +73,24 @@ export default { components: { carousel } };
   display: block;
   background-image: url('~@/assets/pamungkas.jpeg');
   width: 100%;
-  height: 400px;
+  height: 280px;
   background-size: contain;
 
   .quotes {
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    top: 160px;
-    left: 40px;
+    top: 110px;
+    left: 25px;
     display: block;
-    width: 180px;
+    width: 140px;
     color: #1f3e4b;
     font-weight: bold;
+    font-size: 12px;
 
     span {
       display: block;
       margin-top: 10px;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
       font-style: normal;
     }
