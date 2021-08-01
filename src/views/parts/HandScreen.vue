@@ -5,6 +5,8 @@
       <div class="splash-tagline">
         <div class="title">Indri & Agus</div>
         <div class="notif">Pemberitahuan Akad</div>
+      </div>
+      <div class="splash-button">
         <div class="btn btn-primary btn-open">Open</div>
       </div>
     </div>
@@ -22,10 +24,11 @@ export default {
   background-image: url('~@/assets/newhandscreen.jpeg');
   background-size: cover;
   background-position: center;
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 374px),
+    (min-width: 375px) and (max-width: 480px) {
     background-image: url('~@/assets/newhandscreen.jpeg');
     background-size: cover;
-    background-position-x: -30px;
+    background-position-x: 0px;
   }
 }
 .splash-wrapper,
@@ -67,31 +70,29 @@ export default {
       border-radius: 10px;
       color: #fff;
       padding: 30px 10px;
-      right: 50px;
-      top: 180px;
       margin: 0px;
       padding: 0px;
       @media screen and (max-width: 374px),
         (min-width: 375px) and (max-width: 480px) {
-        right: 12px;
+        top: 0px;
+        right: 0px;
+        left: 0px;
       }
 
       .title {
-        font-size: 60px;
         font-family: 'Cormorant Garamond', serif;
         @media screen and (max-width: 374px),
           (min-width: 375px) and (max-width: 480px) {
-          font-size: 25px;
+          font-size: 35px;
         }
       }
 
       .notif {
         font-family: 'Cormorant Garamond', serif;
         font-size: 40px;
-        margin-top: 10px;
         @media screen and (max-width: 374px),
           (min-width: 375px) and (max-width: 480px) {
-          font-size: 18px;
+          font-size: 25px;
         }
       }
 
@@ -104,6 +105,20 @@ export default {
         color: #000;
         margin-top: 30px;
         border: none;
+      }
+    }
+
+    .splash-button {
+      position: absolute;
+      color: #fff;
+      right: 40px;
+      top: 250px;
+
+      .btn-open {
+        border-radius: 30px;
+        background: #fff;
+        border: none;
+        color: #000;
       }
     }
   }
