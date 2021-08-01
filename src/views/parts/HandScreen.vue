@@ -29,6 +29,8 @@ export default {
     background-image: url('~@/assets/newhandscreen.jpeg');
     background-size: cover;
     background-position-x: 0px;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
   }
 }
 .splash-wrapper,
@@ -74,7 +76,7 @@ export default {
       padding: 0px;
       @media screen and (max-width: 374px),
         (min-width: 375px) and (max-width: 480px) {
-        top: 0px;
+        top: 370px;
         right: 0px;
         left: 0px;
       }
