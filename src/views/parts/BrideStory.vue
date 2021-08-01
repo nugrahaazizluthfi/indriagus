@@ -12,7 +12,7 @@
     <carousel :items="1" :nav="false">
       <div class="box-meet" data-aos="fade-right" data-aos-duration="3000">
         <h3>Pertama Kali Berjumpa</h3>
-        <h4><i>Tahun 2015</i></h4>
+        <h4><i>Mei Tahun 2015</i></h4>
         <p>
           Kami diperkenalkan di tahun 2015 oleh teman kami, pertama kali bertemu
           untuk berangkat kerja bersama. Akan tetapi, setelah pertemuan itu
@@ -32,7 +32,7 @@
 
       <div class="box-meet" data-aos="fade-right" data-aos-duration="3000">
         <h3>Pertemuan Keluarga</h3>
-        <h4><i>Januari Tahun 2019</i></h4>
+        <h4><i>Januari Tahun 2021</i></h4>
         <p>
           29 Januari 2021, adalah hari yang membahagiakan untuk kami berdua,
           kami melangsungkan pertemuan keluarga besar kami untuk membahas masa
