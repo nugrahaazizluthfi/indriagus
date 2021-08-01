@@ -42,7 +42,7 @@
     </carousel>
 
     <div class="title mt-5 mb-5" data-aos="fade-in" data-aos-duration="3000">
-      Our Video
+      Our Moment
     </div>
     <div class="video" data-aos="fade-in" data-aos-duration="3000">
       <video controls>

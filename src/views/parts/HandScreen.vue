@@ -1,13 +1,17 @@
 <template>
   <div class="global-wrapper splash-wrapper my-gradient">
+    <div class="bride-img"></div>
+    <div class="bride-img-right"></div>
     <div class="splash-logo">
-      <div class="splash-overlay"></div>
       <div class="splash-tagline">
         <div class="title">Indri & Agus</div>
         <div class="notif">Pemberitahuan Akad</div>
-      </div>
-      <div class="splash-button">
-        <div class="btn btn-primary btn-open">Open</div>
+        <div
+          class="btn btn-primary btn-open"
+          @click="() => this.$emit('showscreen', 0)"
+        >
+          Open
+        </div>
       </div>
     </div>
   </div>
@@ -20,13 +24,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.bride-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  width: 150px;
+  height: 129px;
+  background-image: url('~@/assets/mantra-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bride-img-right {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 129px;
+  background-image: url('~@/assets/mantra-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  bottom: 0px;
+  right: 0px;
+}
 .splash-wrapper {
-  background-image: url('~@/assets/newhandscreen.jpeg');
+  background-color: #1d3742;
   background-size: cover;
   background-position: center;
   @media screen and (max-width: 374px),
     (min-width: 375px) and (max-width: 480px) {
-    background-image: url('~@/assets/newhandscreen.jpeg');
+    background-color: #1d3742;
     background-size: cover;
     background-position-x: 0px;
     background-position-y: -30px;
@@ -71,12 +99,14 @@ export default {
       position: absolute;
       border-radius: 10px;
       color: #fff;
+      color: #a97d55;
       padding: 30px 10px;
       margin: 0px;
       padding: 0px;
+
       @media screen and (max-width: 374px),
         (min-width: 375px) and (max-width: 480px) {
-        top: 370px;
+        top: 300px;
         right: 0px;
         left: 0px;
       }
@@ -85,7 +115,8 @@ export default {
         font-family: 'Cormorant Garamond', serif;
         @media screen and (max-width: 374px),
           (min-width: 375px) and (max-width: 480px) {
-          font-size: 35px;
+          font-size: 45px;
+          font-weight: bold;
         }
       }
 
@@ -94,15 +125,16 @@ export default {
         font-size: 40px;
         @media screen and (max-width: 374px),
           (min-width: 375px) and (max-width: 480px) {
-          font-size: 25px;
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 20px;
+          color: #fff;
         }
       }
 
       .btn-open {
         border-radius: 20px;
         margin: 0px;
-        padding: 2px 10px;
-        font-size: 11px;
+        font-size: 15px;
         background: #fff;
         color: #000;
         margin-top: 30px;

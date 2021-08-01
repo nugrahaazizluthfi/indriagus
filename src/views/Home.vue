@@ -1,6 +1,6 @@
 <template>
   <div class="global-wrapper">
-    <!-- <hand-screen></hand-screen> -->
+    <hand-screen v-if="showScreen" @showscreen="updateScreen"></hand-screen>
     <prokes-screen v-if="showProkes" @showprokes="updateProkes"></prokes-screen>
     <bride-screen></bride-screen>
     <bride-greeting></bride-greeting>
@@ -25,7 +25,7 @@ import BrideGreeting from './parts/BrideGreeting.vue';
 import BrideStory from './parts/BrideStory.vue';
 import Navigation from './parts/Navigation.vue';
 // import TimePlace from './parts/TimePlace.vue';
-// import HandScreen from './parts/HandScreen.vue';
+import HandScreen from './parts/HandScreen.vue';
 
 export default {
   components: {
@@ -36,18 +36,24 @@ export default {
     // TimePlace,
     ProkesScreen,
     FormIndri,
-    // HandScreen,
+    HandScreen,
   },
   data() {
     return {
       navigation: 0,
       toogle: 0,
-      showProkes: 1,
+      showProkes: 0,
+      showScreen: 1,
     };
   },
   methods: {
     updateProkes(value) {
       this.showProkes = value;
+    },
+    updateScreen(value) {
+      this.showScreen = value;
+      var audio = document.getElementById('audio-player');
+      audio.play();
     },
     toggleAudio() {
       var audio = document.getElementById('audio-player');
@@ -63,7 +69,7 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      // this.showProkes = 1;
+      this.showProkes = 1;
     }, 15000);
   },
 };
