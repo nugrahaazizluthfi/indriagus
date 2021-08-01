@@ -4,7 +4,7 @@
     <div class="bride-img-middle"></div>
     <div class="bride-img-bottom"></div>
     <div class="bride-section mt-5">
-      <div class="profile" data-aos="fade-in" data-aos-duration="2000">
+      <div class="profile" data-aos="fade-in" data-aos-duration="1000">
         <div class="img shadow-sm indri"></div>
         <div class="bride-img-curek"></div>
       </div>
@@ -48,7 +48,7 @@
       <img src="@/assets/leaf.svg" alt="" />
     </div>
 
-    <div class="text">
+    <div class="text" data-aos="fade-in" data-aos-duration="1000">
       <p class="arrum">
         Dan di antara tanda-tanda kekuasaan-Nya ialah diciptakan-Nya pasangan
         hidup dari jenismu sendiri, supaya kamu mendapatkan ketenangan hati, dan

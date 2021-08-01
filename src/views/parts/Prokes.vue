@@ -107,7 +107,7 @@ export default {
 }
 
 .btn-bride {
-  background: #bda4d7;
+  background: #a97d55;
   border-radius: 200px;
   font-size: 11px;
   color: #fff;

@@ -157,9 +157,10 @@ export default {
 
 <style lang="scss" scoped>
 .myform {
-  background: #fff;
+  background: #1f3e4b;
   padding: 15px;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: 'Cormorant Garamond', serif;
 
   .form-group {
     margin-top: 10px;
@@ -171,7 +172,7 @@ export default {
   }
 
   label {
-    color: #6000bf;
+    color: #a97d55;
     font-weight: bold;
   }
 
@@ -182,20 +183,21 @@ export default {
 
 .bride-title {
   position: relative;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', serif;
   text-align: center;
   font-size: 30px;
-  color: #4d517d;
+  color: #a97d55;
 }
 
 .btn-bride {
-  background: #6000bf;
+  background: #a97d55;
   border-radius: 10px;
-  font-size: 11px;
+  font-size: 14px;
   color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
   padding: 10px 15px;
+  font-weight: bold;
 }
 
 .form-group--error {

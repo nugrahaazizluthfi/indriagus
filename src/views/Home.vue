@@ -4,7 +4,6 @@
     <prokes-screen v-if="showProkes" @showprokes="updateProkes"></prokes-screen>
     <bride-screen></bride-screen>
     <bride-greeting></bride-greeting>
-    <time-place></time-place>
     <bride-story></bride-story>
     <navigation v-if="navigation"></navigation>
     <form-indri></form-indri>
@@ -25,7 +24,7 @@ import BrideScreen from './parts/BrideScreen.vue';
 import BrideGreeting from './parts/BrideGreeting.vue';
 import BrideStory from './parts/BrideStory.vue';
 import Navigation from './parts/Navigation.vue';
-import TimePlace from './parts/TimePlace.vue';
+// import TimePlace from './parts/TimePlace.vue';
 // import HandScreen from './parts/HandScreen.vue';
 
 export default {
@@ -34,7 +33,7 @@ export default {
     BrideGreeting,
     BrideStory,
     Navigation,
-    TimePlace,
+    // TimePlace,
     ProkesScreen,
     FormIndri,
     // HandScreen,
@@ -43,7 +42,7 @@ export default {
     return {
       navigation: 0,
       toogle: 0,
-      showProkes: 0,
+      showProkes: 1,
     };
   },
   methods: {
