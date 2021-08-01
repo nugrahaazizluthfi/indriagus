@@ -1,6 +1,7 @@
 <template>
   <div class="bride-screen">
-    <div class="overlay"></div>
+    <div class="bride-img"></div>
+    <div class="bride-img-right"></div>
     <div class="bride-name-wrapper">
       <div
         data-aos="fade-zoom-in"
@@ -9,34 +10,19 @@
         data-aos-offset="100"
         class="bride-title"
       >
-        The Weeding Cellebration Of
+        Akad Nikah
       </div>
       <div class="bride-name">
-        <div
-          data-aos="fade-in"
-          data-aos-duration="3000"
-          data-aos-offset="200"
-          class="image-right"
-        ></div>
         <span
           data-aos="fade-right"
           data-aos-duration="3000"
           data-aos-offset="300"
           class="indri"
-          >Indri Agustin</span
+          >Indri & Agus</span
         >
-        <span data-aos="fade-in" data-aos-duration="3000" class="and">&</span>
-        <span data-aos="fade-left" data-aos-duration="3000" class="agus"
-          >Agus Aryanto</span
-        >
-        <div
-          data-aos-duration="3000"
-          data-aos="fade-up"
-          class="image-left"
-        ></div>
       </div>
       <div data-aos="fade-in" data-aos-duration="3000" class="bride-time">
-        Rabu, 07 Agustus 2021
+        Sabtu<br /><span>07 <i>/</i> Agustus <i>/</i> 2021</span>
       </div>
       <div data-aos="fade-in" data-aos-duration="3000" class="bride-countdown">
         <timer></timer>
@@ -49,7 +35,7 @@
           v-smooth-scroll
           @click="playSong"
         >
-          BUKA UNDANGAN
+          SAVE THE DATE
         </a>
       </div>
     </div>
@@ -72,9 +58,34 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.bride-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  width: 150px;
+  height: 129px;
+  background-image: url('~@/assets/mantra-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bride-img-right {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 129px;
+  background-image: url('~@/assets/mantra-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  bottom: 0px;
+  right: 0px;
+}
+
 .bride-screen {
   position: relative;
-  background-image: url('~@/assets/bg.jpeg');
+  background: #1d3742;
   background-size: cover;
   height: 100vh;
 
@@ -94,20 +105,20 @@ export default {
     margin: 0 auto;
     font-size: 40px;
     text-align: center;
-    top: calc(100vh - 85%);
+    top: calc(100vh - 79%);
     padding: 20px;
     color: #ffa200;
 
     .bride-title {
       position: relative;
       top: -20px;
-      font-size: 20px;
-      font-family: 'Great Vibes', cursive;
+      font-size: 23px;
+      font-family: 'Cormorant Garamond', serif;
       color: #fff;
     }
 
     .bride-name {
-      font-family: 'Great Vibes', cursive;
+      font-family: 'Cormorant Garamond', serif;
       position: relative;
       .indri,
       .and,
@@ -123,14 +134,15 @@ export default {
 
       .indri,
       .agus {
-        font-size: 1.9rem;
+        font-size: 3rem;
         font-weight: bold;
         letter-spacing: 6px;
+        font-style: italic;
       }
 
       .indri {
         position: relative;
-        padding-right: 70px;
+        color: #a9865b;
       }
 
       .agus {
@@ -162,10 +174,21 @@ export default {
       }
     }
     .bride-time {
-      font-size: 14px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
       position: relative;
       top: 40px;
       color: #fff;
+
+      span {
+        color: #a9865b;
+        font-size: 29px;
+      }
+
+      i {
+        font-size: 25px;
+        font-size: 29px;
+      }
     }
     .bride-countdown {
       position: relative;
@@ -173,11 +196,11 @@ export default {
     }
     .bride-button {
       position: relative;
-      top: 80px;
+      top: 120px;
       .btn-bride {
-        background: #bda4d7;
-        border-radius: 200px;
-        font-size: 11px;
+        background: #a9865b;
+        border-radius: 5px;
+        font-size: 14px;
         color: #fff;
         font-weight: bold;
         letter-spacing: 1px;

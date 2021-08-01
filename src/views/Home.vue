@@ -1,6 +1,6 @@
 <template>
   <div class="global-wrapper">
-    <hand-screen></hand-screen>
+    <!-- <hand-screen></hand-screen> -->
     <prokes-screen v-if="showProkes" @showprokes="updateProkes"></prokes-screen>
     <bride-screen></bride-screen>
     <bride-greeting></bride-greeting>
@@ -26,7 +26,7 @@ import BrideGreeting from './parts/BrideGreeting.vue';
 import BrideStory from './parts/BrideStory.vue';
 import Navigation from './parts/Navigation.vue';
 import TimePlace from './parts/TimePlace.vue';
-import HandScreen from './parts/HandScreen.vue';
+// import HandScreen from './parts/HandScreen.vue';
 
 export default {
   components: {
@@ -37,7 +37,7 @@ export default {
     TimePlace,
     ProkesScreen,
     FormIndri,
-    HandScreen,
+    // HandScreen,
   },
   data() {
     return {
