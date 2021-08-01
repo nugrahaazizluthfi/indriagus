@@ -51,7 +51,7 @@
       </video>
     </div>
 
-    <div class="text-pamungkas" data-aos="fade-in" data-aos-duration="3000">
+    <div class="text-pamungkas" data-aos="fade-in" data-aos-duration="1000">
       <p class="quotes">
         "Tidak ada solusi yang lebih baik bagi dua insan yang saling mencintai
         dibanding pernikahan"
@@ -74,7 +74,7 @@ export default { components: { carousel } };
   background-image: url('~@/assets/pamungkas.jpeg');
   width: 100%;
   height: 400px;
-  background-size: cover;
+  background-size: contain;
 
   .quotes {
     font-family: 'Cormorant Garamond', serif;
