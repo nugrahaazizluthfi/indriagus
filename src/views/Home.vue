@@ -69,7 +69,9 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      this.showProkes = 1;
+      if (this.showScreen == 0) {
+        this.showProkes = 1;
+      }
     }, 15000);
   },
 };

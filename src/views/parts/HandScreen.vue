@@ -103,6 +103,9 @@ export default {
       padding: 30px 10px;
       margin: 0px;
       padding: 0px;
+      top: 300px;
+      right: 0px;
+      left: 0px;
 
       @media screen and (max-width: 374px),
         (min-width: 375px) and (max-width: 480px) {

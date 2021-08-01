@@ -50,6 +50,15 @@
         Your browser does not support the video tag.
       </video>
     </div>
+
+    <div class="text-pamungkas" data-aos="fade-in" data-aos-duration="3000">
+      <p class="quotes">
+        "Tidak ada solusi yang lebih baik bagi dua insan yang saling mencintai
+        dibanding pernikahan"
+        <br />
+        <span>HR. Ibnu Majah</span>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -59,6 +68,33 @@ export default { components: { carousel } };
 </script>
 
 <style lang="scss" scoped>
+.text-pamungkas {
+  position: relative;
+  display: block;
+  background-image: url('~@/assets/pamungkas.jpeg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+
+  .quotes {
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    display: block;
+    width: 180px;
+    color: #1f3e4b;
+    font-weight: bold;
+
+    span {
+      display: block;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+    }
+  }
+}
 .bride-story {
   position: relative;
   padding: 5% 18px 5% 18px;
